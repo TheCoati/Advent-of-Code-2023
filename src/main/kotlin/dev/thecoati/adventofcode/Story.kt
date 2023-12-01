@@ -35,13 +35,13 @@ class Story {
      * Print the output of the loaded days from the namespace.
      */
     fun output() {
-        println("\uD83C\uDF84 Welcome to the ${this.color["green"]}Advent of Code ${this.color["reset"]}2022")
+        println("\uD83C\uDF84 Welcome to the ${this.color["green"]}Advent of Code ${this.color["reset"]}2023")
         println() /* Break line */
 
         for (day in this.days) {
             val start = System.currentTimeMillis()
 
-            println("${day.day()} Dec 2022 - ${day.title()}")
+            println("${day.day()} Dec 2023 - ${day.title()}")
             System.out.printf("Result 1 = ${this.color["white"]}%s%n${this.color["reset"]}", day.part1(day.input()))
             System.out.printf("Result 2 = ${this.color["white"]}%s%n${this.color["reset"]}", day.part2(day.input()))
 

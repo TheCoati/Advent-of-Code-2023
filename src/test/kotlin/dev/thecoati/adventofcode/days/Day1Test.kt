@@ -7,20 +7,23 @@ import org.junit.jupiter.api.Test
 
 internal class Day1Test {
     private val day1 = Day1()
-    private val input = FileInput("day1")
 
     @Test
     fun part1() {
-        val expected = "77"
-        val result = this.day1.part1(this.input)
+        val input = FileInput("day1_1")
+
+        val expected = "142"
+        val result = this.day1.part1(input)
 
         assertEquals(expected, result)
     }
 
     @Test
     fun part2() {
-        val expected = "0"
-        val result = this.day1.part2(this.input)
+        val input = FileInput("day1_2")
+
+        val expected = "281"
+        val result = this.day1.part2(input)
 
         assertEquals(expected, result)
     }
