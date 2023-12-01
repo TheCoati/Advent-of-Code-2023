@@ -29,4 +29,4 @@ Use `./gradlew test` in order to run the tests.
 
 ## Checklist
 
-- [x] [1 Dec 2023](https://adventofcode.com/2023/day/1) **-** Trebuchet?!
+- [ ] [1 Dec 2023](https://adventofcode.com/2023/day/1) **-** Trebuchet?!
