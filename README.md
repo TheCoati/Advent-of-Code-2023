@@ -29,4 +29,7 @@ Use `./gradlew test` in order to run the tests.
 
 ## Checklist
 
-- [ ] [1 Dec 2023](https://adventofcode.com/2023/day/1) **-** Trebuchet?!
+- [x] [1 Dec 2023](https://adventofcode.com/2023/day/1) **-** Trebuchet?!
+- [x] [2 Dec 2023](https://adventofcode.com/2023/day/2) **-** Cube Conundrum
+- [ ] [3 Dec 2023](https://adventofcode.com/2023/day/3) **-** Gear Ratios
+- [ ] [4 Dec 2023](https://adventofcode.com/2023/day/4) **-** Scratchcards
